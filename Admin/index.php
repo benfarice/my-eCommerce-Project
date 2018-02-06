@@ -1,8 +1,9 @@
 <?php
-	include "includes/templates/header.php";
+	include 'init.php';
+	include $tpl."header.php";
 ?>
 	Welcome to Index
-	
+
 <?php
-	include "includes/templates/footer.php";
+	include $tpl ."footer.php";
 ?>
