@@ -4,5 +4,6 @@
 	$css = 'layout/css/'; // Css directory
 	$js = 'layout/js/'; // Js directory
 
-	include 'includes/languages/arabic.php';
+	//include 'includes/languages/arabic.php';
+	include 'connect.php';
 ?>
