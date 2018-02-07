@@ -22,3 +22,11 @@ body{
 	background-color: #008dde;
 }
 /* End Login Form */
+
+/* Start bootstrap Edit */
+.navbar{
+	border-radius: 0;
+}
+
+
+/* End bootstrap Edit */

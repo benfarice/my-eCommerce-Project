@@ -5,13 +5,15 @@
   </button>
 
   <div class="collapse navbar-collapse" id="app-nav">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#"><?php echo lang('Categories');?></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#"><?php echo lang('link');?></a>
-      </li>
+    <ul class="nav navbar-nav navbar-left">
+      <li><a class="nav-link" href="#"><?php echo lang('Categories');?></a></li>
+      <li><a  class="nav-link" href="#"><?php echo lang('items');?></a></li>
+      <li><a  class="nav-link" href="#"><?php echo lang('members');?></a></li>
+      <li><a  class="nav-link" href="#"><?php echo lang('statistics');?></a></li>
+      <li><a  class="nav-link" href="#"><?php echo lang('logs');?></a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+    
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           imzoughene 
@@ -20,7 +22,7 @@
           <a class="dropdown-item" href="#"><?php echo lang('Edit_Profile');?></a>
           <a class="dropdown-item" href="#"><?php echo lang('Settings');?></a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#"><?php echo lang('Logout');?></a>
+          <a class="dropdown-item" href="logout.php"><?php echo lang('Logout');?></a>
         </div>
       </li>
   
