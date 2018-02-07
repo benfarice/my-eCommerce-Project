@@ -6,7 +6,9 @@
 			// Redirect To Dashboard Page
 		exit();
 	}
+	
 	$noNavbar = '';
+	$pagetitle = 'Login';
 	include 'init.php';
 	
 

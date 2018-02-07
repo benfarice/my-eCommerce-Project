@@ -2,7 +2,9 @@
 	session_start();
 	//print_r($_SESSION);
 	if(isset($_SESSION['username'])){
+		$pagetitle = 'Dashboard';
 		include 'init.php';
+
 		echo "welcome ".$_SESSION['username'] ;
 		include $tpl ."footer.php";
 	}else{
